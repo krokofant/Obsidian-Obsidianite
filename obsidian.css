@@ -36,7 +36,8 @@
   --interactive-accent: #92a1a1;
   --interactive-before: #5e6565;
   --background-modifier-border: #92a1a17a;
-  --blockquote-border: #d6555f;
+  --
+ote-border: #d6555f;
   --tag-background: rgba(14, 210, 247, 0.15);
   --interactive-accent-rgb: 61, 215, 251;
   --font-family-editor: Avenir, 'Avenir Next';
@@ -1094,6 +1095,10 @@ blockquote {
   height: 2px;
   width: 60%;
   background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #13111a);
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote + .HyperMD-quote::before {
+  display: none;
 }
 
 .HyperMD-quote::after,
